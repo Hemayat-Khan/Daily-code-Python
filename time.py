@@ -1,0 +1,16 @@
+#----Exercise--Time Library-----#
+import time
+print("Good Morning  G Uncle:")
+print("Hour:Minutes:Seconds")
+timestamp=time.strftime("%H:%M:%S")
+print(timestamp)
+print("Hours:")
+timestamp= time.strftime("%H")
+print(timestamp)
+print("Minutes:")
+timestamp= time.strftime("%M")
+print(timestamp)
+print("Seconds:")
+timestamp= time.strftime("%S")
+print(timestamp)
+print("Goodbye")
